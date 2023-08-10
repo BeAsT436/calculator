@@ -27,16 +27,18 @@ body, html{
     width: 50px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
     border: 1px;
+    margin: 0 auto;
 }
 .result{
     background-color: black;
-    width: 320px;;
-    height: 32px;
+    width: 300px;
+    height: 50px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     color: white;
-    text-align: center;
+    padding-right: 10px;
+
 }
 .reset{
     background-color: red;
@@ -49,11 +51,12 @@ button[type="actions"]{
 }
 .cover{
     background-color: rgb(194, 194, 194);
-    border-radius: 0 0 25px 25px;
-    width: 320px;
-    height: 360px;
+    border-radius: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
 
 }
